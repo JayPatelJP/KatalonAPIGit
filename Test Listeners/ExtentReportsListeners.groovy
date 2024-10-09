@@ -15,7 +15,7 @@ class ExtentReportsListeners
 	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) 
 	{
 		CustomKeywords.'com.katalon.extent.report.ExtentReport.deleteFolderContents'()
-		CustomKeywords.'com.katalon.extent.report.ExtentReport.attachEReport'(testSuiteContext, "Extent Report", "Test Report")
+		CustomKeywords.'com.katalon.extent.report.ExtentReport.attachEReport'(testSuiteContext, "Extent Report", "API Test Report")
 	}
 
 	@BeforeTestCase
